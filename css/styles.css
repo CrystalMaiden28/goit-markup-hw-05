@@ -585,6 +585,7 @@ ul {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	padding: 72px 24px 24px 24px;
 }
 
 .icon-modal {
@@ -597,25 +598,26 @@ ul {
 }
 
 .close-button {
-	display: flex;
-    align-items: center;
-    justify-content: center;
 	position: absolute;
+	top: 24px;
+	right: 24px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e7e9fc;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0;
-    top: 24px;
-    right: 24px;
-    width: 24px;
-    height: 24px;
-	padding: 72px 24px 24px 24px;
-    border-radius: 50%;
-    background-color: #e7e9fc;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	cursor: pointer;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .close-button:hover,
-.close-button:focus {
+.close-button:focus,
+.close-button:active {
 	border: none;
 	background-color: #404bbf;
 	fill: #ffffff;
