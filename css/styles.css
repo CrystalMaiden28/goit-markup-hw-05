@@ -679,7 +679,7 @@ ul {
 	margin-bottom: 16px;
 }
 
-.label-textarea {
+.label-class {
 	display: block;
 	margin-bottom: 4px;
 	font-size: 12px;
@@ -709,7 +709,7 @@ ul {
 	border-color: #4d5ae5;
 }
 
-.div.checkbox {
+.div-checkbox {
 	display:flex;
 	margin-bottom: 24px;
 }
